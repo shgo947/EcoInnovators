@@ -1,0 +1,65 @@
+/* sihhomepage.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,400;1,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design {
+    width: 100%;
+    height: 100vh;
+    text-shadow: 2px 2px blue;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.042), url("12.jpg"));
+    font-family: "Roboto Condensed", "Roboto", sans-serif;
+    background-size: cover;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.h-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.h-text span {
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.h-text h1 {
+    font-size: 50px;
+    color: orange;
+    font-weight: bold;
+}
+
+.h-text a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    letter-spacing: 5px;
+    background-color: rgb(13, 249, 107);
+    transition: 0.4s;
+    color: red;
+}
+
+.h-text a:hover {
+    border: 1px solid indianred;
+    background: transparent;
+}
+
+h1:hover {
+    background-color: rgb(246, 240, 240);
+    transition: 0.4s;
+}
